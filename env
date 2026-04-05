@@ -1,0 +1,18 @@
+# Configurações do Banco de Dados
+DB_HOST=localhost
+DB_NAME=psicomanager
+DB_USER=root
+DB_PASS=
+
+# API Asaas - SANDBOX (para testes)
+# Obtenha sua chave em: https://sandbox.asaas.com/
+# É GRATUITO para testes - não precisa pagar nada!
+ASAAS_API_KEY=$aact_prod_000MzkwODA2MWY2OGM3MWRlMDU2NWM3MzJlNzZmNGZhZGY6OmU0YThhMGYzLWU5YmMtNDIxZS1hMDZmLTQwN2ZhNjYxM2MwNDo6JGFhY2hfMjQxZjk1MmEtNTRiNy00OWM4LTkyYzktYzk2ZDM5OWFkOTEy
+
+# Google Calendar
+GOOGLE_APPLICATION_CREDENTIALS=config/service-account.json
+GOOGLE_CALENDAR_ID=primary
+
+# WhatsApp (Exemplo)
+WHATSAPP_API_URL=https://api.whatsapp.com/send
+WHATSAPP_API_KEY=sua_chave_whatsapp
